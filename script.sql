@@ -9,9 +9,10 @@ cpf char (11) not null,
 cnpj char (14) not null, 
 email varchar (80) not null,
 senha varchar (15) not null,
-telefone varchar (11),
-cidade varchar (60),
-estadoUF char (2)
+telefone char (10) not null,
+celular char(11),
+cidade varchar (60) not null,
+estadoUF char (2) null
 ); 
  
  create table plantacao (
@@ -46,6 +47,11 @@ umidade int not null,
 dtRegistro datetime default current_timestamp,
 constraint fk_leitura_sensor foreign key (fkSensor) references sensor(idSensor)
 );
+
+drop table cliente;
+drop table plantacao;
+drop table sensor;
+drop table leitura;
 
 insert into cliente (cpf, cnpj, nome, email, senha, telefone, cidade, estadoUf) values
 ('02551289084', '36742727000191', 'Irmãos & Agricultura', 'irmaos.agricultura@gmail.com', 'irmãos123', '27983793113', 'Colatina','ES'),
