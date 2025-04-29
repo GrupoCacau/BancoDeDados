@@ -1,19 +1,33 @@
 create database MaisCacau_pi;  
-
 use MaisCacau_pi; 
 
-create table  cliente (
-idCliente int primary  key auto_increment,
+create table  empresa (
+idEmpresa int primary  key auto_increment,
 nome varchar (100) not null,
-cpf char (11) not null,
-cnpj char (14) not null, 
+cnpj char (14) not null unique,
+telefone char (11) not null,
 email varchar (80) not null,
-senha varchar (15) not null,
-telefone char (10) not null,
-celular char(11),
-cidade varchar (60) not null,
-estadoUF char (2) null
+cep char (8) not null,
+numero varchar(10),
+logradouro varchar(80),
+bairro varchar (50),
+estadoUF char (2) not null,
+cidade varchar (80) not null,
+complemento varchar(100),
+codigoAtivacao char(6) not null
 ); 
+ 
+ 
+ create table funcionario(
+ idFuncionario int primary key auto_increment,
+ nome varchar(45) not null,
+ email varchar(45) not null,
+ senha varchar(15) not null,
+ fkEmpresa int,
+ constraint fkEmpresa_funcionario foreign key(fkEmpresa) references empresa(idEmpresa)
+ );
+ 
+ 
  
  create table plantacao (
 idPlant int primary key auto_increment,
@@ -23,18 +37,16 @@ tipoPlant varchar (50) not null,
 tipoCacau varchar (50) not null, 
 tipoClima varchar (50) not null,
 tipoAdubo varchar (50) not null,
-fkCliente int not null,
+fkEmpresa int not null,
 constraint chkTipoPlant check(tipoPlant in('Sombreado', 'Pleno Sol', 'Extra-Tivista')),
-constraint fk_plantacao_cliente foreign key(fkCliente) references Cliente (idCliente)
+constraint fk_plantacao_empresa foreign key(fkEmpresa) references empresa (idEmpresa)
 ); 
 
 create table Sensor (
-idSensor int auto_increment,
-fkPlantacao int,
-constraint pkComposta primary key(idSensor, fkPlantacao),
-dtUltimaManutencao date, 
-numSerie varchar (45),
-situacao varchar(20),
+idSensor int primary key auto_increment,
+numSerie varchar (45) not null,
+situacao varchar(20) not null,
+fkplantacao int,
 constraint chkSituacao check(situacao in('Operando normalmente','Necessita reparo')),
 constraint fk_sensor_plantacao foreign key (fkPlantacao) references plantacao(idPlant)
 ); 
@@ -48,45 +60,52 @@ dtRegistro datetime default current_timestamp,
 constraint fk_leitura_sensor foreign key (fkSensor) references sensor(idSensor)
 );
 
-drop table cliente;
-drop table plantacao;
-drop table sensor;
-drop table leitura;
 
-insert into cliente (cpf, cnpj, nome, email, senha, telefone, cidade, estadoUf) values
-('02551289084', '36742727000191', 'Irmãos & Agricultura', 'irmaos.agricultura@gmail.com', 'irmãos123', '27983793113', 'Colatina','ES'),
-('67209940189', '65033138000132', 'Fazendas Araujo', 'contato@fazendas.araujo', 'FamiliaAraujo', null, 'Gurupi','TO'),
-('00331470195', '20124173000129', 'Colheita Feliz', 'contato@colheitafeliz.com', 'ColheitaFeliz', '31998795436', 'Belo Horizonte','MG'),
-('82936716888', '86537439000173', 'Santa Ana Agricultura', 'santaana.agricultura@outloook.com', '01234567890', null , 'Porto Alegre','RS');
+insert into Empresa (nome,cnpj,telefone, email, cep, numero,logradouro,bairro, estadoUf, cidade, complemento, codigoAtivacao) values
+('Cacau do Vale Agroindustrial Ltda', '12345678000195',  '11999998888',  'contato@techsolutions.com.br', 
+ '04547000', '123',  'Av. das Nações Unidas', 'Brooklin', 'SP', 'São Paulo',   'Conjunto 42',  'ABC123'),
+('Sementes de Ouro Cacau e Agricultura ME', '39847215000167', '11987654321', 'contato@globaltech.com.br', 
+'04578903', '1001', 'Rua Funchal', 'Vila Olímpia', 'SP', 'São Paulo', '5º andar - Sala 502', 'GTX123'),
+('Floresta Cacau e Produtos Naturais EIRELI', '04729166000122', '31988776655', 'vendas@ecolife.com.br', 
+'30140071', '250', 'Av. do Contorno', 'Funcionários', 'MG', 'Belo Horizonte', 'Loja 01', 'ECO456');
 
-update cliente set telefone = '11976541032', email = 'santaana.agricultura@outlook.com' where idCliente = 4;
 
-SELECT cpf AS 'CPF', cnpj AS 'CNPJ', nome AS 'Nome', email AS 'Email', senha AS 'Senha', IFNULL(telefone, 'Sem telefone') AS 'Telefone', cidade AS 'Cidade', estadoUf AS 'Estado', ifnull(telefone, 'Sem telefone') as 'Telefone'
-FROM cliente;
 
-insert into plantacao (nomeFazenda, hectaresPlant, tipoPlant, tipoCacau, tipoClima, tipoAdubo, fkCliente) values
+update empresa set telefone = '11976541032', email = 'santaana.agricultura@outlook.com' where idEmpresa = 2;
+
+SELECT cnpj AS 'CNPJ', nome AS 'Nome', email AS 'Email', IFNULL(telefone, 'Sem telefone') AS 'Telefone', cidade AS 'Cidade', estadoUf AS 'Estado', ifnull(telefone, 'Sem telefone') as 'Telefone'
+FROM empresa;
+
+insert into plantacao (nomeFazenda, hectaresPlant, tipoPlant, tipoCacau, tipoClima, tipoAdubo, fkEmpresa) values
 ('Fazenda Santa Origem', 87, 'Sombreado', 'Forasteiro', 'Equatorial', 'Orgânico', 1),
 ('Caminho do paraíso', 70, 'Extra-Tivista', 'Trinitário', 'Tropical Semi-Úmido', 'Mineral', 2),
 ('Fazenda do Titio', 129, 'Pleno Sol', 'Trinitário', 'Tropical Úmido', 'Mineral', 2),
 ('Fazenda Feliz', 105, 'Sombreado', 'Criollo', 'Tropical Semi-Árido', 'Orgânico', 3),
-('Fazenda Santa Ana', 200, 'Sombreado', 'Criollo', 'Equatorial', 'Orgânico', 4);
+('Fazenda Santa Ana', 200, 'Sombreado', 'Criollo', 'Equatorial', 'Orgânico', 1);
 
-select idCliente, nome, cnpj, email, ifnull(telefone, 'Sem telefone') as Telefone, cidade, estadoUF as 'UF', nomeFazenda as 'Fazenda', tipoPlant, tipoCacau from cliente
-inner join plantacao on fkCliente =  idCliente;
+select idEmpresa, idPlant, nome, cnpj, email, ifnull(telefone, 'Sem telefone') as Telefone, cidade, estadoUF as 'UF', nomeFazenda as 'Fazenda', tipoPlant, tipoCacau from empresa
+inner join plantacao on fkEmpresa =  idEmpresa;
 
-insert into sensor(fkPlantacao, dtUltimaManutencao, numSerie, situacao) values
-(1, null, '42698', 'Operando normalmente'),
-(2, null, '27158', 'Operando normalmente'),
-(3, '2024-07-28', '24385', 'Operando normalmente'),
-(3, null, '21506', 'Necessita reparo'),
-(4, '2025-04-10', '74385', 'Operando normalmente'),
-(5, '2025-02-26', '74586', 'Operando normalmente'),
-(5, null, '53759', 'Necessita reparo'),
-(5, '2025-01-01', '26101', 'Operando normalmente');
+insert into sensor(fkPlantacao, numSerie, situacao) values
+(1, '42698', 'Operando normalmente'),
+(2, '27158', 'Operando normalmente'),
+(3, '24385', 'Operando normalmente'),
+(3,'21506', 'Necessita reparo'),
+(4, '74385', 'Operando normalmente'),
+(5, '74586', 'Operando normalmente'),
+(5, '53759', 'Necessita reparo'),
+(5, '26101', 'Operando normalmente');
 
-select idSensor, idPlant, nomeFazenda as 'Fazenda', ifnull(dtUltimaManutencao, 'Nenhuma manutenção feita') as 'Data última manutenção', situacao from sensor
+select idSensor, idPlant, nomeFazenda as 'Fazenda', situacao as 'Status' from sensor
 inner join plantacao on fkPlantacao = idPlant;
 
-select idSensor, nomeFazenda as 'Fazenda', ifnull(dtUltimaManutencao, 'Nenhuma manutenção feita') as 'Data última manutenção', situacao from sensor
+select idSensor, nomeFazenda as 'Fazenda',  situacao as  'Status'  from sensor
 inner join plantacao on fkPlantacao = idPlant
 where idPlant = 5 and situacao = 'Necessita reparo';
+
+
+drop table leitura;
+drop table sensor;
+drop table plantacao;
+drop table funcionario;
+drop table empresa;
