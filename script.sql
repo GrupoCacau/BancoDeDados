@@ -1,7 +1,8 @@
-create database MaisCacau_pi;  
+create database MaisCacau_pi;
+ 
 use MaisCacau_pi; 
 
-create table  empresa (
+create table empresa(
 idEmpresa int primary  key auto_increment,
 nome varchar (100) not null,
 cnpj char (14) not null unique,
@@ -17,7 +18,6 @@ complemento varchar(100),
 codigoAtivacao char(6) not null
 ); 
  
- 
  create table funcionario(
  idFuncionario int primary key auto_increment,
  nome varchar(45) not null,
@@ -26,8 +26,6 @@ codigoAtivacao char(6) not null
  fkEmpresa int,
  constraint fkEmpresa_funcionario foreign key(fkEmpresa) references empresa(idEmpresa)
  );
- 
- 
  
  create table plantacao (
 idPlant int primary key auto_increment,
@@ -42,7 +40,7 @@ constraint chkTipoPlant check(tipoPlant in('Sombreado', 'Pleno Sol', 'Extra-Tivi
 constraint fk_plantacao_empresa foreign key(fkEmpresa) references empresa (idEmpresa)
 ); 
 
-create table Sensor (
+create table sensor (
 idSensor int primary key auto_increment,
 numSerie varchar (45) not null,
 situacao varchar(20) not null,
@@ -51,7 +49,7 @@ constraint chkSituacao check(situacao in('Operando normalmente','Necessita repar
 constraint fk_sensor_plantacao foreign key (fkPlantacao) references plantacao(idPlant)
 ); 
 
-create table Leitura(
+create table leitura(
 idLeitura int auto_increment,
 fkSensor int,
 constraint pkComposta primary key(idLeitura, fkSensor),
@@ -61,14 +59,13 @@ constraint fk_leitura_sensor foreign key (fkSensor) references sensor(idSensor)
 );
 
 
-insert into Empresa (nome,cnpj,telefone, email, cep, numero,logradouro,bairro, estadoUf, cidade, complemento, codigoAtivacao) values
+insert into empresa (nome,cnpj,telefone, email, cep, numero,logradouro,bairro, estadoUf, cidade, complemento, codigoAtivacao) values
 ('Cacau do Vale Agroindustrial Ltda', '12345678000195',  '11999998888',  'contato@techsolutions.com.br', 
  '04547000', '123',  'Av. das Nações Unidas', 'Brooklin', 'SP', 'São Paulo',   'Conjunto 42',  'ABC123'),
 ('Sementes de Ouro Cacau e Agricultura ME', '39847215000167', '11987654321', 'contato@globaltech.com.br', 
 '04578903', '1001', 'Rua Funchal', 'Vila Olímpia', 'SP', 'São Paulo', '5º andar - Sala 502', 'GTX123'),
 ('Floresta Cacau e Produtos Naturais EIRELI', '04729166000122', '31988776655', 'vendas@ecolife.com.br', 
 '30140071', '250', 'Av. do Contorno', 'Funcionários', 'MG', 'Belo Horizonte', 'Loja 01', 'ECO456');
-
 
 
 update empresa set telefone = '11976541032', email = 'santaana.agricultura@outlook.com' where idEmpresa = 2;
@@ -103,7 +100,7 @@ select idSensor, nomeFazenda as 'Fazenda',  situacao as  'Status'  from sensor
 inner join plantacao on fkPlantacao = idPlant
 where idPlant = 5 and situacao = 'Necessita reparo';
 
-
+select * from empresa;
 drop table leitura;
 drop table sensor;
 drop table plantacao;
