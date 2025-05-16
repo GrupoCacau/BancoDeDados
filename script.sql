@@ -27,26 +27,39 @@ codigoAtivacao char(6) not null
  constraint fkEmpresa_funcionario foreign key(fkEmpresa) references empresa(idEmpresa)
  );
  
- create table plantacao (
-idPlant int primary key auto_increment,
-nomeFazenda varchar (100) not null,
-hectaresPlant float not null,
-tipoPlant varchar (50) not null, 
-tipoCacau varchar (50) not null, 
-tipoClima varchar (50) not null,
-tipoAdubo varchar (50) not null,
-fkEmpresa int not null,
-constraint chkTipoPlant check(tipoPlant in('Sombreado', 'Pleno Sol', 'Extra-Tivista')),
-constraint fk_plantacao_empresa foreign key(fkEmpresa) references empresa (idEmpresa)
-); 
+ create table hectares (
+ idPlant int primary key auto_increment,
+ nomeFazenda varchar(100),
+ fkEmpresa int,
+	constraint fkEmpresaHectare
+	foreign key (fkEmpresa)
+    references empresa(idEmpresa)
+);
 
-create table sensor (
+create table setores (
+idSetores int auto_increment,
+totalSensores varchar(45),
+nomeSensor varchar(45),
+fkHectareSetor int,
+	constraint fkHectareSetor
+    foreign key (fkHectareSetor)
+    references hectares(idPlant),
+    constraint pkCompostaSetores
+    primary key (idSetores, fkHectareSetor)
+);
+
+create table sensores (
 idSensor int primary key auto_increment,
 numSerie varchar (45) not null,
 situacao varchar(20) not null,
-fkplantacao int,
-constraint chkSituacao check(situacao in('Operando normalmente','Necessita reparo')),
-constraint fk_sensor_plantacao foreign key (fkPlantacao) references plantacao(idPlant)
+fkSetores int,
+	constraint fkSetores
+    foreign key (fkSetores)
+    references setores(idSetores),
+fkHectareSensores int,
+	constraint fkHectareSensores
+	foreign key (fkHectareSensores)
+    references hectares(idPlant)
 ); 
 
 create table leitura(
@@ -55,7 +68,7 @@ fkSensor int,
 constraint pkComposta primary key(idLeitura, fkSensor),
 umidade int not null,
 dtRegistro datetime default current_timestamp,
-constraint fk_leitura_sensor foreign key (fkSensor) references sensor(idSensor)
+constraint fk_leitura_sensor foreign key (fkSensor) references sensores(idSensor)
 );
 
 
@@ -73,17 +86,10 @@ update empresa set telefone = '11976541032', email = 'santaana.agricultura@outlo
 SELECT cnpj AS 'CNPJ', nome AS 'Nome', email AS 'Email', IFNULL(telefone, 'Sem telefone') AS 'Telefone', cidade AS 'Cidade', estadoUf AS 'Estado', ifnull(telefone, 'Sem telefone') as 'Telefone'
 FROM empresa;
 
-insert into plantacao (nomeFazenda, hectaresPlant, tipoPlant, tipoCacau, tipoClima, tipoAdubo, fkEmpresa) values
-('Fazenda Santa Origem', 87, 'Sombreado', 'Forasteiro', 'Equatorial', 'Orgânico', 1),
-('Caminho do paraíso', 70, 'Extra-Tivista', 'Trinitário', 'Tropical Semi-Úmido', 'Mineral', 2),
-('Fazenda do Titio', 129, 'Pleno Sol', 'Trinitário', 'Tropical Úmido', 'Mineral', 2),
-('Fazenda Feliz', 105, 'Sombreado', 'Criollo', 'Tropical Semi-Árido', 'Orgânico', 3),
-('Fazenda Santa Ana', 200, 'Sombreado', 'Criollo', 'Equatorial', 'Orgânico', 1);
-
 select idEmpresa, idPlant, nome, cnpj, email, ifnull(telefone, 'Sem telefone') as Telefone, cidade, estadoUF as 'UF', nomeFazenda as 'Fazenda', tipoPlant, tipoCacau from empresa
 inner join plantacao on fkEmpresa =  idEmpresa;
 
-insert into sensor(fkPlantacao, numSerie, situacao) values
+insert into sensores(fkPlantacao, numSerie, situacao) values
 (1, '42698', 'Operando normalmente'),
 (2, '27158', 'Operando normalmente'),
 (3, '24385', 'Operando normalmente'),
@@ -99,10 +105,3 @@ inner join plantacao on fkPlantacao = idPlant;
 select idSensor, nomeFazenda as 'Fazenda',  situacao as  'Status'  from sensor
 inner join plantacao on fkPlantacao = idPlant
 where idPlant = 5 and situacao = 'Necessita reparo';
-
-select * from empresa;
-drop table leitura;
-drop table sensor;
-drop table plantacao;
-drop table funcionario;
-drop table empresa;
