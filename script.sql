@@ -828,6 +828,7 @@ INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (172, 55, '2025-06-02
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (172, 56, '2025-06-03 13:38:14');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (173, 56, '2025-06-05 19:06:32');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (173, 55, '2025-06-04 12:05:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (173, 55, '2025-06-04 12:05:56');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (174, 55, '2025-06-04 20:44:04');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (174, 56, '2025-06-03 12:55:12');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (175, 56, '2025-06-01 17:55:27');
@@ -882,3 +883,817 @@ INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (199, 56, '2025-06-07
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (199, 55, '2025-06-07 16:41:18');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (200, 55, '2025-06-02 00:50:19');
 INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (200, 56, '2025-06-02 03:29:27');
+
+-- 
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (1, 56, '2025-06-12 12:45:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (1, 55, '2025-06-12 11:59:18');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (2, 55, '2025-06-12 06:41:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (2, 56, '2025-06-12 04:10:12');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (3, 56, '2025-06-12 06:46:46');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (3, 55, '2025-06-12 04:10:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (4, 55, '2025-06-12 14:52:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (4, 56, '2025-06-12 02:09:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (5, 56, '2025-06-12 22:25:27');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (5, 55, '2025-06-12 12:54:46');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (6, 55, '2025-06-12 02:41:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (6, 56, '2025-06-12 19:14:11');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (7, 56, '2025-06-12 05:39:39');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (7, 55, '2025-06-12 02:12:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (8, 55, '2025-06-12 05:32:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (8, 56, '2025-06-12 03:38:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (9, 56, '2025-06-12 17:53:46');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (9, 55, '2025-06-12 19:20:42');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (10, 55, '2025-06-12 20:09:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (10, 56, '2025-06-12 16:19:21');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (11, 56, '2025-06-12 18:55:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (11, 55, '2025-06-12 13:42:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (12, 55, '2025-06-12 17:26:03');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (12, 56, '2025-06-12 01:57:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (13, 56, '2025-06-12 16:33:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (13, 55, '2025-06-12 10:21:36');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (14, 55, '2025-06-12 01:51:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (14, 56, '2025-06-12 16:42:15');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (15, 56, '2025-06-12 22:52:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (15, 55, '2025-06-12 02:34:03');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (16, 55, '2025-06-12 17:12:57');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (16, 56, '2025-06-12 04:58:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (17, 56, '2025-06-12 23:16:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (17, 55, '2025-06-12 13:17:33');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (18, 55, '2025-06-12 13:57:02');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (18, 56, '2025-06-12 19:17:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (19, 56, '2025-06-12 16:59:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (19, 55, '2025-06-12 13:42:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (20, 55, '2025-06-12 19:13:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (20, 56, '2025-06-12 21:05:05');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (21, 56, '2025-06-12 12:18:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (21, 55, '2025-06-12 16:33:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (22, 55, '2025-06-12 18:24:11');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (22, 56, '2025-06-12 03:24:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (23, 56, '2025-06-12 22:29:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (23, 55, '2025-06-12 03:25:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (24, 55, '2025-06-12 08:01:42');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (24, 56, '2025-06-12 02:50:21');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (25, 56, '2025-06-12 02:29:42');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (25, 55, '2025-06-12 09:01:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (26, 55, '2025-06-12 05:23:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (26, 56, '2025-06-12 03:06:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (27, 56, '2025-06-12 10:25:43');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (27, 55, '2025-06-12 00:06:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (28, 55, '2025-06-12 11:18:57');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (28, 56, '2025-06-12 19:45:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (29, 56, '2025-06-12 11:26:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (29, 55, '2025-06-12 05:07:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (30, 55, '2025-06-12 21:50:55');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (30, 56, '2025-06-12 06:18:16');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (31, 56, '2025-06-12 21:11:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (31, 55, '2025-06-12 21:26:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (32, 55, '2025-06-12 00:19:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (32, 56, '2025-06-12 01:16:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (33, 56, '2025-06-12 21:04:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (33, 55, '2025-06-12 05:52:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (34, 55, '2025-06-12 11:55:11');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (34, 56, '2025-06-12 10:31:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (35, 56, '2025-06-12 01:21:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (35, 55, '2025-06-12 01:54:46');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (36, 55, '2025-06-12 09:08:39');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (36, 56, '2025-06-12 09:21:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (37, 56, '2025-06-12 17:01:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (37, 55, '2025-06-12 10:09:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (38, 55, '2025-06-12 08:16:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (38, 56, '2025-06-12 07:21:02');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (39, 56, '2025-06-12 12:09:21');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (39, 55, '2025-06-12 16:11:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (40, 55, '2025-06-12 07:07:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (40, 56, '2025-06-12 21:35:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (41, 56, '2025-06-12 12:01:31');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (41, 55, '2025-06-12 23:23:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (42, 55, '2025-06-12 17:06:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (42, 56, '2025-06-12 02:36:59');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (43, 56, '2025-06-12 05:34:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (43, 55, '2025-06-12 14:16:10');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (44, 55, '2025-06-12 07:42:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (44, 56, '2025-06-12 06:46:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (45, 56, '2025-06-12 12:34:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (45, 55, '2025-06-12 04:36:12');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (46, 55, '2025-06-12 15:31:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (46, 56, '2025-06-12 11:25:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (47, 56, '2025-06-12 07:56:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (47, 55, '2025-06-12 14:07:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (48, 55, '2025-06-12 02:56:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (48, 56, '2025-06-12 18:24:58');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (49, 56, '2025-06-12 20:17:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (49, 55, '2025-06-12 14:06:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (50, 55, '2025-06-12 14:41:31');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (50, 56, '2025-06-12 08:07:21');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (51, 56, '2025-06-12 08:30:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (51, 55, '2025-06-12 09:18:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (52, 55, '2025-06-12 05:37:18');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (52, 56, '2025-06-12 22:18:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (53, 56, '2025-06-12 13:35:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (53, 55, '2025-06-12 07:12:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (54, 55, '2025-06-12 19:15:05');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (54, 56, '2025-06-12 12:11:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (55, 56, '2025-06-12 22:17:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (55, 55, '2025-06-12 09:03:52');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (56, 55, '2025-06-12 15:55:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (56, 56, '2025-06-12 19:48:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (57, 56, '2025-06-12 04:33:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (57, 55, '2025-06-12 10:01:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (58, 55, '2025-06-12 07:09:25');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (58, 56, '2025-06-12 20:06:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (59, 56, '2025-06-12 12:57:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (59, 55, '2025-06-12 19:45:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (60, 55, '2025-06-12 06:53:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (60, 56, '2025-06-12 13:51:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (61, 56, '2025-06-12 16:09:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (61, 55, '2025-06-12 16:17:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (62, 55, '2025-06-12 22:24:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (62, 56, '2025-06-12 14:57:37');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (63, 56, '2025-06-12 05:11:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (63, 55, '2025-06-12 05:13:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (64, 55, '2025-06-12 12:38:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (64, 56, '2025-06-12 18:38:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (65, 56, '2025-06-12 21:46:33');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (65, 55, '2025-06-12 14:12:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (66, 55, '2025-06-12 13:05:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (66, 56, '2025-06-12 10:44:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (67, 56, '2025-06-12 20:05:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (67, 55, '2025-06-12 03:03:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (68, 55, '2025-06-12 02:57:11');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (68, 56, '2025-06-12 07:36:20');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (69, 56, '2025-06-12 10:30:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (69, 55, '2025-06-12 16:15:12');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (70, 55, '2025-06-12 12:43:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (70, 56, '2025-06-12 07:58:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (71, 56, '2025-06-12 17:59:20');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (71, 55, '2025-06-12 22:16:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (72, 55, '2025-06-12 19:48:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (72, 56, '2025-06-12 12:19:33');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (73, 56, '2025-06-12 01:21:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (73, 55, '2025-06-12 18:20:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (74, 55, '2025-06-12 01:28:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (74, 56, '2025-06-12 12:18:37');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (75, 56, '2025-06-12 08:49:27');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (75, 55, '2025-06-12 13:32:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (76, 55, '2025-06-12 15:29:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (76, 56, '2025-06-12 17:08:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (77, 56, '2025-06-12 11:55:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (77, 55, '2025-06-12 09:27:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (78, 55, '2025-06-12 10:30:15');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (78, 56, '2025-06-12 16:34:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (79, 56, '2025-06-12 01:14:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (79, 55, '2025-06-12 13:58:31');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (80, 55, '2025-06-12 07:43:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (80, 56, '2025-06-12 09:54:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (81, 56, '2025-06-12 23:50:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (81, 55, '2025-06-12 05:50:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (82, 55, '2025-06-12 07:11:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (82, 56, '2025-06-12 00:37:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (83, 56, '2025-06-12 05:32:03');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (83, 55, '2025-06-12 16:59:19');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (84, 55, '2025-06-12 21:58:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (84, 56, '2025-06-12 07:21:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (85, 56, '2025-06-12 01:47:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (85, 55, '2025-06-12 15:46:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (86, 55, '2025-06-12 03:17:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (86, 56, '2025-06-12 02:07:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (87, 56, '2025-06-12 10:30:55');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (87, 55, '2025-06-12 12:50:19');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (88, 55, '2025-06-12 22:16:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (88, 56, '2025-06-12 05:57:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (89, 56, '2025-06-12 21:54:59');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (89, 55, '2025-06-12 22:09:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (90, 55, '2025-06-12 12:58:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (90, 56, '2025-06-12 16:50:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (91, 56, '2025-06-12 05:18:43');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (91, 55, '2025-06-12 01:12:55');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (92, 55, '2025-06-12 08:30:15');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (92, 56, '2025-06-12 18:37:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (93, 56, '2025-06-12 23:51:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (93, 55, '2025-06-12 23:45:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (94, 55, '2025-06-12 05:58:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (94, 56, '2025-06-12 23:45:11');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (95, 56, '2025-06-12 09:57:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (95, 55, '2025-06-12 04:31:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (96, 55, '2025-06-12 21:15:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (96, 56, '2025-06-12 18:48:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (97, 56, '2025-06-12 03:19:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (97, 55, '2025-06-12 17:44:05');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (98, 55, '2025-06-12 07:56:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (98, 56, '2025-06-12 13:39:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (99, 56, '2025-06-12 15:01:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (99, 55, '2025-06-12 05:08:39');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (100, 55, '2025-06-12 01:51:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (100, 56, '2025-06-12 00:11:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (101, 56, '2025-06-12 11:55:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (101, 55, '2025-06-12 12:47:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (102, 55, '2025-06-12 01:13:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (102, 56, '2025-06-12 05:05:52');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (103, 56, '2025-06-12 17:06:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (103, 55, '2025-06-12 16:05:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (104, 55, '2025-06-12 06:14:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (104, 56, '2025-06-12 11:46:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (105, 56, '2025-06-12 20:22:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (105, 55, '2025-06-12 18:00:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (106, 55, '2025-06-12 02:30:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (106, 56, '2025-06-12 11:30:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (107, 56, '2025-06-12 12:48:39');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (107, 55, '2025-06-12 17:45:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (108, 55, '2025-06-12 03:46:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (108, 56, '2025-06-12 13:01:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (109, 56, '2025-06-12 08:13:58');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (109, 55, '2025-06-12 16:50:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (110, 55, '2025-06-12 06:16:20');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (110, 56, '2025-06-12 17:57:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (111, 56, '2025-06-12 13:19:54');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (111, 55, '2025-06-12 07:06:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (112, 55, '2025-06-12 06:06:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (112, 56, '2025-06-12 15:47:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (113, 56, '2025-06-12 22:57:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (113, 55, '2025-06-12 20:40:57');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (114, 55, '2025-06-12 20:02:20');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (114, 56, '2025-06-12 02:27:35');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (115, 56, '2025-06-12 17:48:20');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (115, 55, '2025-06-12 13:27:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (116, 55, '2025-06-12 19:03:18');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (116, 56, '2025-06-12 22:01:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (117, 56, '2025-06-12 01:26:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (117, 55, '2025-06-12 21:06:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (118, 55, '2025-06-12 15:56:27');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (118, 56, '2025-06-12 20:29:43');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (119, 56, '2025-06-12 05:54:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (119, 55, '2025-06-12 01:59:37');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (120, 55, '2025-06-12 03:59:58');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (120, 56, '2025-06-12 03:54:54');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (121, 56, '2025-06-12 15:26:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (121, 55, '2025-06-12 23:53:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (122, 55, '2025-06-12 10:51:59');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (122, 56, '2025-06-12 03:30:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (123, 56, '2025-06-12 05:59:16');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (123, 55, '2025-06-12 06:20:19');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (124, 55, '2025-06-12 10:16:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (124, 56, '2025-06-12 09:50:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (125, 56, '2025-06-12 06:08:36');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (125, 55, '2025-06-12 09:27:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (126, 55, '2025-06-12 05:30:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (126, 56, '2025-06-12 10:05:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (127, 56, '2025-06-12 02:46:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (127, 55, '2025-06-12 00:40:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (128, 55, '2025-06-12 17:01:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (128, 56, '2025-06-12 00:49:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (129, 56, '2025-06-12 06:14:58');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (129, 55, '2025-06-12 21:43:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (130, 55, '2025-06-12 13:43:25');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (130, 56, '2025-06-12 04:43:46');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (131, 56, '2025-06-12 00:27:00');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (131, 55, '2025-06-12 23:57:21');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (132, 55, '2025-06-12 09:50:05');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (132, 56, '2025-06-12 20:30:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (133, 56, '2025-06-12 22:07:33');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (133, 55, '2025-06-12 08:12:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (134, 55, '2025-06-12 01:23:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (134, 56, '2025-06-12 14:16:10');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (135, 56, '2025-06-12 02:40:25');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (135, 55, '2025-06-12 21:06:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (136, 55, '2025-06-12 13:06:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (136, 56, '2025-06-12 16:03:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (137, 56, '2025-06-12 03:30:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (137, 55, '2025-06-12 00:04:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (138, 55, '2025-06-12 21:25:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (138, 56, '2025-06-12 15:47:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (139, 56, '2025-06-12 16:05:02');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (139, 55, '2025-06-12 09:11:39');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (140, 55, '2025-06-12 05:09:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (140, 56, '2025-06-12 11:35:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (141, 56, '2025-06-12 08:58:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (141, 55, '2025-06-12 09:48:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (142, 55, '2025-06-12 08:40:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (142, 56, '2025-06-12 01:18:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (143, 56, '2025-06-12 19:28:09');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (143, 55, '2025-06-12 19:38:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (144, 55, '2025-06-12 20:20:58');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (144, 56, '2025-06-12 13:40:55');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (145, 56, '2025-06-12 12:27:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (145, 55, '2025-06-12 18:27:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (146, 55, '2025-06-12 16:21:02');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (146, 56, '2025-06-12 02:08:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (147, 56, '2025-06-12 18:09:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (147, 55, '2025-06-12 10:41:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (148, 55, '2025-06-12 09:06:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (148, 56, '2025-06-12 04:05:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (149, 56, '2025-06-12 01:58:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (149, 55, '2025-06-12 06:45:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (150, 55, '2025-06-12 05:35:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (150, 56, '2025-06-12 02:05:15');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (151, 56, '2025-06-12 17:05:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (151, 55, '2025-06-12 10:01:52');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (152, 55, '2025-06-12 12:58:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (152, 56, '2025-06-12 19:40:33');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (153, 56, '2025-06-12 07:43:16');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (153, 55, '2025-06-12 11:54:44');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (154, 55, '2025-06-12 06:45:33');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (154, 56, '2025-06-12 15:36:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (155, 56, '2025-06-12 09:05:35');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (155, 55, '2025-06-12 23:22:27');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (156, 55, '2025-06-12 17:23:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (156, 56, '2025-06-12 07:13:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (157, 56, '2025-06-12 04:03:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (157, 55, '2025-06-12 02:33:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (158, 55, '2025-06-12 00:45:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (158, 56, '2025-06-12 14:01:43');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (159, 56, '2025-06-12 23:37:31');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (159, 55, '2025-06-12 22:53:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (160, 55, '2025-06-12 22:38:05');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (160, 56, '2025-06-12 15:55:10');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (161, 56, '2025-06-12 19:58:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (161, 55, '2025-06-12 01:46:25');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (162, 55, '2025-06-12 06:19:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (162, 56, '2025-06-12 10:42:34');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (163, 56, '2025-06-12 10:58:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (163, 55, '2025-06-12 16:18:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (164, 55, '2025-06-12 21:41:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (164, 56, '2025-06-12 19:20:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (165, 56, '2025-06-12 15:22:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (165, 55, '2025-06-12 05:30:45');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (166, 55, '2025-06-12 11:53:54');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (166, 56, '2025-06-12 08:03:39');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (167, 56, '2025-06-12 19:00:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (167, 55, '2025-06-12 12:59:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (168, 55, '2025-06-12 06:00:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (168, 56, '2025-06-12 20:32:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (169, 56, '2025-06-12 01:18:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (169, 55, '2025-06-12 10:56:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (170, 55, '2025-06-12 20:21:37');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (170, 56, '2025-06-12 23:28:43');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (171, 56, '2025-06-12 00:31:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (171, 55, '2025-06-12 07:12:47');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (172, 55, '2025-06-12 20:18:38');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (172, 56, '2025-06-12 13:38:14');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (173, 56, '2025-06-12 19:06:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (173, 55, '2025-06-12 12:05:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (173, 55, '2025-06-12 12:05:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (174, 55, '2025-06-12 20:44:04');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (174, 56, '2025-06-12 12:55:12');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (175, 56, '2025-06-12 17:55:27');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (175, 55, '2025-06-12 11:26:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (176, 55, '2025-06-12 04:40:24');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (176, 56, '2025-06-12 21:11:46');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (177, 56, '2025-06-12 14:04:11');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (177, 55, '2025-06-12 22:24:49');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (178, 55, '2025-06-12 10:14:03');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (178, 56, '2025-06-12 08:10:19');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (179, 56, '2025-06-12 09:24:28');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (179, 55, '2025-06-12 07:32:57');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (180, 55, '2025-06-12 18:23:22');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (180, 56, '2025-06-12 14:39:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (181, 56, '2025-06-12 01:12:08');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (181, 55, '2025-06-12 11:03:48');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (182, 55, '2025-06-12 01:41:59');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (182, 56, '2025-06-12 11:09:55');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (183, 56, '2025-06-12 18:30:02');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (183, 55, '2025-06-12 21:42:30');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (184, 55, '2025-06-12 20:42:17');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (184, 56, '2025-06-12 18:35:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (185, 56, '2025-06-12 01:13:20');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (185, 55, '2025-06-12 05:18:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (186, 55, '2025-06-12 15:09:01');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (186, 56, '2025-06-12 22:53:50');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (187, 56, '2025-06-12 21:19:32');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (187, 55, '2025-06-12 09:13:53');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (188, 55, '2025-06-12 23:37:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (188, 56, '2025-06-12 14:04:18');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (189, 56, '2025-06-12 16:02:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (189, 55, '2025-06-12 04:48:06');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (190, 55, '2025-06-12 07:36:31');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (190, 56, '2025-06-12 22:59:21');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (191, 56, '2025-06-12 21:35:26');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (191, 55, '2025-06-12 21:53:51');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (192, 55, '2025-06-12 00:53:43');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (192, 56, '2025-06-12 13:25:07');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (193, 56, '2025-06-12 05:50:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (193, 55, '2025-06-12 13:47:40');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (194, 55, '2025-06-12 02:09:13');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (194, 56, '2025-06-12 22:42:54');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (195, 56, '2025-06-12 04:03:35');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (195, 55, '2025-06-12 19:51:23');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (196, 55, '2025-06-12 02:53:56');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (196, 56, '2025-06-12 04:34:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (197, 56, '2025-06-12 08:32:36');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (197, 55, '2025-06-12 02:57:57');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (198, 55, '2025-06-12 06:08:03');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (198, 56, '2025-06-12 02:08:29');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (199, 56, '2025-06-12 10:32:41');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (199, 55, '2025-06-12 16:41:18');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (200, 55, '2025-06-12 00:50:19');
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES (200, 56, '2025-06-12 03:29:27');
+
+INSERT INTO leitura (fkSensor, umidade, dtRegistro) VALUES
+(1, 56, '2025-06-12 12:00:00'),
+(1, 55, '2025-06-12 12:00:00'),
+(2, 55, '2025-06-12 08:00:00'),
+(2, 56, '2025-06-12 04:00:00'),
+(3, 56, '2025-06-12 08:00:00'),
+(3, 55, '2025-06-12 04:00:00'),
+(4, 55, '2025-06-12 16:00:00'),
+(4, 56, '2025-06-12 04:00:00'),
+(5, 56, '2025-06-12 20:00:00'),
+(5, 55, '2025-06-12 12:00:00'),
+(6, 55, '2025-06-12 04:00:00'),
+(6, 56, '2025-06-12 20:00:00'),
+(7, 56, '2025-06-12 04:00:00'),
+(7, 55, '2025-06-12 04:00:00'),
+(8, 55, '2025-06-12 04:00:00'),
+(8, 56, '2025-06-12 04:00:00'),
+(9, 56, '2025-06-12 16:00:00'),
+(9, 55, '2025-06-12 20:00:00'),
+(10, 55, '2025-06-12 20:00:00'),
+(10, 56, '2025-06-12 16:00:00'),
+(11, 56, '2025-06-12 20:00:00'),
+(11, 55, '2025-06-12 12:00:00'),
+(12, 55, '2025-06-12 16:00:00'),
+(12, 56, '2025-06-12 00:00:00'),
+(13, 56, '2025-06-12 16:00:00'),
+(13, 55, '2025-06-12 12:00:00'),
+(14, 55, '2025-06-12 00:00:00'),
+(14, 56, '2025-06-12 16:00:00'),
+(15, 56, '2025-06-12 20:00:00'),
+(15, 55, '2025-06-12 04:00:00'),
+(16, 55, '2025-06-12 16:00:00'),
+(16, 56, '2025-06-12 04:00:00'),
+(17, 56, '2025-06-12 20:00:00'),
+(17, 55, '2025-06-12 12:00:00'),
+(18, 55, '2025-06-12 12:00:00'),
+(18, 56, '2025-06-12 20:00:00'),
+(19, 56, '2025-06-12 16:00:00'),
+(19, 55, '2025-06-12 12:00:00'),
+(20, 55, '2025-06-12 20:00:00'),
+(20, 56, '2025-06-12 20:00:00'),
+(21, 56, '2025-06-12 12:00:00'),
+(21, 55, '2025-06-12 16:00:00'),
+(22, 55, '2025-06-12 20:00:00'),
+(22, 56, '2025-06-12 04:00:00'),
+(23, 56, '2025-06-12 20:00:00'),
+(23, 55, '2025-06-12 04:00:00'),
+(24, 55, '2025-06-12 08:00:00'),
+(24, 56, '2025-06-12 04:00:00'),
+(25, 56, '2025-06-12 04:00:00'),
+(25, 55, '2025-06-12 08:00:00'),
+(26, 55, '2025-06-12 04:00:00'),
+(26, 56, '2025-06-12 04:00:00'),
+(27, 56, '2025-06-12 12:00:00'),
+(27, 55, '2025-06-12 00:00:00'),
+(28, 55, '2025-06-12 12:00:00'),
+(28, 56, '2025-06-12 20:00:00'),
+(29, 56, '2025-06-12 12:00:00'),
+(29, 55, '2025-06-12 04:00:00'),
+(30, 55, '2025-06-12 20:00:00'),
+(30, 56, '2025-06-12 08:00:00'),
+(31, 56, '2025-06-12 20:00:00'),
+(31, 55, '2025-06-12 20:00:00'),
+(32, 55, '2025-06-12 00:00:00'),
+(32, 56, '2025-06-12 00:00:00'),
+(33, 56, '2025-06-12 20:00:00'),
+(33, 55, '2025-06-12 04:00:00'),
+(34, 55, '2025-06-12 12:00:00'),
+(34, 56, '2025-06-12 12:00:00'),
+(35, 56, '2025-06-12 00:00:00'),
+(35, 55, '2025-06-12 00:00:00'),
+(36, 55, '2025-06-12 08:00:00'),
+(36, 56, '2025-06-12 08:00:00'),
+(37, 56, '2025-06-12 16:00:00'),
+(37, 55, '2025-06-12 12:00:00'),
+(38, 55, '2025-06-12 08:00:00'),
+(38, 56, '2025-06-12 08:00:00'),
+(39, 56, '2025-06-12 12:00:00'),
+(39, 55, '2025-06-12 16:00:00'),
+(40, 55, '2025-06-12 08:00:00'),
+(40, 56, '2025-06-12 20:00:00'),
+(41, 56, '2025-06-12 12:00:00'),
+(41, 55, '2025-06-12 20:00:00'),
+(42, 55, '2025-06-12 16:00:00'),
+(42, 56, '2025-06-12 04:00:00'),
+(43, 56, '2025-06-12 04:00:00'),
+(43, 55, '2025-06-12 16:00:00'),
+(44, 55, '2025-06-12 08:00:00'),
+(44, 56, '2025-06-12 08:00:00'),
+(45, 56, '2025-06-12 12:00:00'),
+(45, 55, '2025-06-12 04:00:00'),
+(46, 55, '2025-06-12 16:00:00'),
+(46, 56, '2025-06-12 12:00:00'),
+(47, 56, '2025-06-12 08:00:00'),
+(47, 55, '2025-06-12 16:00:00'),
+(48, 55, '2025-06-12 04:00:00'),
+(48, 56, '2025-06-12 20:00:00'),
+(49, 56, '2025-06-12 20:00:00'),
+(49, 55, '2025-06-12 16:00:00'),
+(50, 55, '2025-06-12 16:00:00'),
+(50, 56, '2025-06-12 08:00:00'),
+(51, 56, '2025-06-12 08:00:00'),
+(51, 55, '2025-06-12 08:00:00'),
+(52, 55, '2025-06-12 04:00:00'),
+(52, 56, '2025-06-12 20:00:00'),
+(53, 56, '2025-06-12 12:00:00'),
+(53, 55, '2025-06-12 08:00:00'),
+(54, 55, '2025-06-12 20:00:00'),
+(54, 56, '2025-06-12 12:00:00'),
+(55, 56, '2025-06-12 20:00:00'),
+(55, 55, '2025-06-12 08:00:00'),
+(56, 55, '2025-06-12 16:00:00'),
+(56, 56, '2025-06-12 20:00:00'),
+(57, 56, '2025-06-12 04:00:00'),
+(57, 55, '2025-06-12 12:00:00'),
+(58, 55, '2025-06-12 08:00:00'),
+(58, 56, '2025-06-12 20:00:00'),
+(59, 56, '2025-06-12 12:00:00'),
+(59, 55, '2025-06-12 20:00:00'),
+(60, 55, '2025-06-12 08:00:00'),
+(60, 56, '2025-06-12 12:00:00'),
+(61, 56, '2025-06-12 16:00:00'),
+(61, 55, '2025-06-12 16:00:00'),
+(62, 55, '2025-06-12 20:00:00'),
+(62, 56, '2025-06-12 16:00:00'),
+(63, 56, '2025-06-12 04:00:00'),
+(63, 55, '2025-06-12 04:00:00'),
+(64, 55, '2025-06-12 12:00:00'),
+(64, 56, '2025-06-12 20:00:00'),
+(65, 56, '2025-06-12 20:00:00'),
+(65, 55, '2025-06-12 16:00:00'),
+(66, 55, '2025-06-12 12:00:00'),
+(66, 56, '2025-06-12 12:00:00'),
+(67, 56, '2025-06-12 20:00:00'),
+(67, 55, '2025-06-12 04:00:00'),
+(68, 55, '2025-06-12 04:00:00'),
+(68, 56, '2025-06-12 08:00:00'),
+(69, 56, '2025-06-12 12:00:00'),
+(69, 55, '2025-06-12 16:00:00'),
+(70, 55, '2025-06-12 12:00:00'),
+(70, 56, '2025-06-12 08:00:00'),
+(71, 56, '2025-06-12 16:00:00'),
+(71, 55, '2025-06-12 20:00:00'),
+(72, 55, '2025-06-12 20:00:00'),
+(72, 56, '2025-06-12 12:00:00'),
+(73, 56, '2025-06-12 00:00:00'),
+(73, 55, '2025-06-12 20:00:00'),
+(74, 55, '2025-06-12 00:00:00'),
+(74, 56, '2025-06-12 12:00:00'),
+(75, 56, '2025-06-12 08:00:00'),
+(75, 55, '2025-06-12 12:00:00'),
+(76, 55, '2025-06-12 16:00:00'),
+(76, 56, '2025-06-12 16:00:00'),
+(77, 56, '2025-06-12 12:00:00'),
+(77, 55, '2025-06-12 08:00:00'),
+(78, 55, '2025-06-12 12:00:00'),
+(78, 56, '2025-06-12 16:00:00'),
+(79, 56, '2025-06-12 00:00:00'),
+(79, 55, '2025-06-12 12:00:00'),
+(80, 55, '2025-06-12 08:00:00'),
+(80, 56, '2025-06-12 08:00:00'),
+(81, 56, '2025-06-12 20:00:00'),
+(81, 55, '2025-06-12 04:00:00'),
+(82, 55, '2025-06-12 08:00:00'),
+(82, 56, '2025-06-12 00:00:00'),
+(83, 56, '2025-06-12 04:00:00'),
+(83, 55, '2025-06-12 16:00:00'),
+(84, 55, '2025-06-12 20:00:00'),
+(84, 56, '2025-06-12 08:00:00'),
+(85, 56, '2025-06-12 00:00:00'),
+(85, 55, '2025-06-12 16:00:00'),
+(86, 55, '2025-06-12 04:00:00'),
+(86, 56, '2025-06-12 04:00:00'),
+(87, 56, '2025-06-12 12:00:00'),
+(87, 55, '2025-06-12 12:00:00'),
+(88, 55, '2025-06-12 20:00:00'),
+(88, 56, '2025-06-12 04:00:00'),
+(89, 56, '2025-06-12 20:00:00'),
+(89, 55, '2025-06-12 20:00:00'),
+(90, 55, '2025-06-12 12:00:00'),
+(90, 56, '2025-06-12 16:00:00'),
+(91, 56, '2025-06-12 04:00:00'),
+(91, 55, '2025-06-12 00:00:00'),
+(92, 55, '2025-06-12 08:00:00'),
+(92, 56, '2025-06-12 20:00:00'),
+(93, 56, '2025-06-12 20:00:00'),
+(93, 55, '2025-06-12 20:00:00'),
+(94, 55, '2025-06-12 04:00:00'),
+(94, 56, '2025-06-12 20:00:00'),
+(95, 56, '2025-06-12 08:00:00'),
+(95, 55, '2025-06-12 04:00:00'),
+(96, 55, '2025-06-12 20:00:00'),
+(96, 56, '2025-06-12 20:00:00'),
+(97, 56, '2025-06-12 04:00:00'),
+(97, 55, '2025-06-12 16:00:00'),
+(98, 55, '2025-06-12 08:00:00'),
+(98, 56, '2025-06-12 12:00:00'),
+(99, 56, '2025-06-12 16:00:00'),
+(99, 55, '2025-06-12 04:00:00'),
+(100, 55, '2025-06-12 00:00:00'),
+(100, 56, '2025-06-12 00:00:00'),
+(101, 56, '2025-06-12 12:00:00'),
+(101, 55, '2025-06-12 12:00:00'),
+(102, 55, '2025-06-12 00:00:00'),
+(102, 56, '2025-06-12 04:00:00'),
+(103, 56, '2025-06-12 16:00:00'),
+(103, 55, '2025-06-12 16:00:00'),
+(104, 55, '2025-06-12 08:00:00'),
+(104, 56, '2025-06-12 12:00:00'),
+(105, 56, '2025-06-12 20:00:00'),
+(105, 55, '2025-06-12 20:00:00'),
+(106, 55, '2025-06-12 04:00:00'),
+(106, 56, '2025-06-12 12:00:00'),
+(107, 56, '2025-06-12 12:00:00'),
+(107, 55, '2025-06-12 16:00:00'),
+(108, 55, '2025-06-12 04:00:00'),
+(108, 56, '2025-06-12 12:00:00'),
+(109, 56, '2025-06-12 08:00:00'),
+(109, 55, '2025-06-12 16:00:00'),
+(110, 55, '2025-06-12 08:00:00'),
+(110, 56, '2025-06-12 16:00:00'),
+(111, 56, '2025-06-12 12:00:00'),
+(111, 55, '2025-06-12 08:00:00'),
+(112, 55, '2025-06-12 08:00:00'),
+(112, 56, '2025-06-12 16:00:00'),
+(113, 56, '2025-06-12 20:00:00'),
+(113, 55, '2025-06-12 20:00:00'),
+(114, 55, '2025-06-12 20:00:00'),
+(114, 56, '2025-06-12 04:00:00'),
+(115, 56, '2025-06-12 16:00:00'),
+(115, 55, '2025-06-12 12:00:00'),
+(116, 55, '2025-06-12 20:00:00'),
+(116, 56, '2025-06-12 20:00:00'),
+(117, 56, '2025-06-12 00:00:00'),
+(117, 55, '2025-06-12 20:00:00'),
+(118, 55, '2025-06-12 16:00:00'),
+(118, 56, '2025-06-12 20:00:00'),
+(119, 56, '2025-06-12 04:00:00'),
+(119, 55, '2025-06-12 00:00:00'),
+(120, 55, '2025-06-12 04:00:00'),
+(120, 56, '2025-06-12 04:00:00'),
+(121, 56, '2025-06-12 16:00:00'),
+(121, 55, '2025-06-12 20:00:00'),
+(122, 55, '2025-06-12 12:00:00'),
+(122, 56, '2025-06-12 04:00:00'),
+(123, 56, '2025-06-12 04:00:00'),
+(123, 55, '2025-06-12 08:00:00'),
+(124, 55, '2025-06-12 12:00:00'),
+(124, 56, '2025-06-12 08:00:00'),
+(125, 56, '2025-06-12 08:00:00'),
+(125, 55, '2025-06-12 08:00:00'),
+(126, 55, '2025-06-12 04:00:00'),
+(126, 56, '2025-06-12 12:00:00'),
+(127, 56, '2025-06-12 04:00:00'),
+(127, 55, '2025-06-12 00:00:00'),
+(128, 55, '2025-06-12 16:00:00'),
+(128, 56, '2025-06-12 00:00:00'),
+(129, 56, '2025-06-12 08:00:00'),
+(129, 55, '2025-06-12 20:00:00'),
+(130, 55, '2025-06-12 12:00:00'),
+(130, 56, '2025-06-12 04:00:00'),
+(131, 56, '2025-06-12 00:00:00'),
+(131, 55, '2025-06-12 20:00:00'),
+(132, 55, '2025-06-12 08:00:00'),
+(132, 56, '2025-06-12 20:00:00'),
+(133, 56, '2025-06-12 20:00:00'),
+(133, 55, '2025-06-12 08:00:00'),
+(134, 55, '2025-06-12 00:00:00'),
+(134, 56, '2025-06-12 16:00:00'),
+(135, 56, '2025-06-12 04:00:00'),
+(135, 55, '2025-06-12 20:00:00'),
+(136, 55, '2025-06-12 12:00:00'),
+(136, 56, '2025-06-12 16:00:00'),
+(137, 56, '2025-06-12 04:00:00'),
+(137, 55, '2025-06-12 00:00:00'),
+(138, 55, '2025-06-12 20:00:00'),
+(138, 56, '2025-06-12 16:00:00'),
+(139, 56, '2025-06-12 16:00:00'),
+(139, 55, '2025-06-12 08:00:00'),
+(140, 55, '2025-06-12 04:00:00'),
+(140, 56, '2025-06-12 12:00:00'),
+(141, 56, '2025-06-12 08:00:00'),
+(141, 55, '2025-06-12 08:00:00'),
+(142, 55, '2025-06-12 08:00:00'),
+(142, 56, '2025-06-12 00:00:00'),
+(143, 56, '2025-06-12 20:00:00'),
+(143, 55, '2025-06-12 20:00:00'),
+(144, 55, '2025-06-12 20:00:00'),
+(144, 56, '2025-06-12 12:00:00'),
+(145, 56, '2025-06-12 12:00:00'),
+(145, 55, '2025-06-12 20:00:00'),
+(146, 55, '2025-06-12 16:00:00'),
+(146, 56, '2025-06-12 04:00:00'),
+(147, 56, '2025-06-12 20:00:00'),
+(147, 55, '2025-06-12 12:00:00'),
+(148, 55, '2025-06-12 08:00:00'),
+(148, 56, '2025-06-12 04:00:00'),
+(149, 56, '2025-06-12 00:00:00'),
+(149, 55, '2025-06-12 08:00:00'),
+(150, 55, '2025-06-12 04:00:00'),
+(150, 56, '2025-06-12 04:00:00'),
+(151, 56, '2025-06-12 16:00:00'),
+(151, 55, '2025-06-12 12:00:00'),
+(152, 55, '2025-06-12 12:00:00'),
+(152, 56, '2025-06-12 20:00:00'),
+(153, 56, '2025-06-12 08:00:00'),
+(153, 55, '2025-06-12 12:00:00'),
+(154, 55, '2025-06-12 08:00:00'),
+(154, 56, '2025-06-12 16:00:00'),
+(155, 56, '2025-06-12 08:00:00'),
+(155, 55, '2025-06-12 20:00:00'),
+(156, 55, '2025-06-12 16:00:00'),
+(156, 56, '2025-06-12 08:00:00'),
+(157, 56, '2025-06-12 04:00:00'),
+(157, 55, '2025-06-12 04:00:00'),
+(158, 55, '2025-06-12 00:00:00'),
+(158, 56, '2025-06-12 16:00:00'),
+(159, 56, '2025-06-12 20:00:00'),
+(159, 55, '2025-06-12 20:00:00'),
+(160, 55, '2025-06-12 20:00:00'),
+(160, 56, '2025-06-12 16:00:00'),
+(161, 56, '2025-06-12 20:00:00'),
+(161, 55, '2025-06-12 00:00:00'),
+(162, 55, '2025-06-12 08:00:00'),
+(162, 56, '2025-06-12 12:00:00'),
+(163, 56, '2025-06-12 12:00:00'),
+(163, 55, '2025-06-12 16:00:00'),
+(164, 55, '2025-06-12 20:00:00'),
+(164, 56, '2025-06-12 20:00:00'),
+(165, 56, '2025-06-12 16:00:00'),
+(165, 55, '2025-06-12 04:00:00'),
+(166, 55, '2025-06-12 12:00:00'),
+(166, 56, '2025-06-12 08:00:00'),
+(167, 56, '2025-06-12 20:00:00'),
+(167, 55, '2025-06-12 12:00:00'),
+(168, 55, '2025-06-12 08:00:00'),
+(168, 56, '2025-06-12 20:00:00'),
+(169, 56, '2025-06-12 00:00:00'),
+(169, 55, '2025-06-12 12:00:00'),
+(170, 55, '2025-06-12 20:00:00'),
+(170, 56, '2025-06-12 20:00:00'),
+(171, 56, '2025-06-12 00:00:00'),
+(171, 55, '2025-06-12 08:00:00'),
+(172, 55, '2025-06-12 20:00:00'),
+(172, 56, '2025-06-12 12:00:00'),
+(173, 56, '2025-06-12 20:00:00'),
+(173, 55, '2025-06-12 12:00:00'),
+(173, 55, '2025-06-12 12:00:00'),
+(174, 55, '2025-06-12 20:00:00'),
+(174, 56, '2025-06-12 12:00:00'),
+(175, 56, '2025-06-12 16:00:00'),
+(175, 55, '2025-06-12 12:00:00'),
+(176, 55, '2025-06-12 04:00:00'),
+(176, 56, '2025-06-12 20:00:00'),
+(177, 56, '2025-06-12 16:00:00'),
+(177, 55, '2025-06-12 20:00:00'),
+(178, 55, '2025-06-12 12:00:00'),
+(178, 56, '2025-06-12 08:00:00'),
+(179, 56, '2025-06-12 08:00:00'),
+(179, 55, '2025-06-12 08:00:00'),
+(180, 55, '2025-06-12 20:00:00'),
+(180, 56, '2025-06-12 16:00:00'),
+(181, 56, '2025-06-12 00:00:00'),
+(181, 55, '2025-06-12 12:00:00'),
+(182, 55, '2025-06-12 00:00:00'),
+(182, 56, '2025-06-12 12:00:00'),
+(183, 56, '2025-06-12 20:00:00'),
+(183, 55, '2025-06-12 20:00:00'),
+(184, 55, '2025-06-12 20:00:00'),
+(184, 56, '2025-06-12 20:00:00'),
+(185, 56, '2025-06-12 00:00:00'),
+(185, 55, '2025-06-12 04:00:00'),
+(186, 55, '2025-06-12 16:00:00'),
+(186, 56, '2025-06-12 20:00:00'),
+(187, 56, '2025-06-12 20:00:00'),
+(187, 55, '2025-06-12 08:00:00'),
+(188, 55, '2025-06-12 20:00:00'),
+(188, 56, '2025-06-12 16:00:00'),
+(189, 56, '2025-06-12 16:00:00'),
+(189, 55, '2025-06-12 04:00:00'),
+(190, 55, '2025-06-12 08:00:00'),
+(190, 56, '2025-06-12 20:00:00'),
+(191, 56, '2025-06-12 20:00:00'),
+(191, 55, '2025-06-12 20:00:00'),
+(192, 55, '2025-06-12 00:00:00'),
+(192, 56, '2025-06-12 12:00:00'),
+(193, 56, '2025-06-12 04:00:00'),
+(193, 55, '2025-06-12 12:00:00'),
+(194, 55, '2025-06-12 04:00:00'),
+(194, 56, '2025-06-12 20:00:00'),
+(195, 56, '2025-06-12 04:00:00'),
+(195, 55, '2025-06-12 20:00:00'),
+(196, 55, '2025-06-12 04:00:00'),
+(196, 56, '2025-06-12 04:00:00'),
+(197, 56, '2025-06-12 08:00:00'),
+(197, 55, '2025-06-12 04:00:00'),
+(198, 55, '2025-06-12 08:00:00'),
+(198, 56, '2025-06-12 04:00:00'),
+(199, 56, '2025-06-12 12:00:00'),
+(199, 55, '2025-06-12 16:00:00'),
+(200, 55, '2025-06-12 00:00:00'),
+(200, 56, '2025-06-12 04:00:00');
+
+SELECT TRUNCATE(AVG(umidade),2) AS MediaUmidadeSetor, date_format(dataCaptura, '%H:%i') AS dataCaptura 
+FROM vw_kpis WHERE fkEmpresa = 1 AND nomeFazenda = 'Recanto do Sol' AND DAY(dataCaptura) = (SELECT DAY(CURRENT_DATE))
+AND nomeHectares = 'Hectare 1'
+AND (dataCaptura LIKE '%00:00%' OR dataCaptura LIKE '%04:00%' OR dataCaptura LIKE '%08:00%'
+OR dataCaptura LIKE '%12:00%' OR dataCaptura LIKE '%16:00%' OR dataCaptura LIKE '%20:00%')
+GROUP BY nomeFazenda, dataCaptura
+ORDER BY dataCaptura;
